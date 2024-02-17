@@ -1,0 +1,18 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title "Digital Wallet LSR"
+Person(Client, "Client", "Digital wallet user")
+System(Wallet, "Digital Wallet System", "LSR Digital Wallet")
+
+System_Ext(Secret_manager, "AWS Secret Manager", "Credential Secrets Manager")
+System_Ext(APM, "APM", "Application Perfomance Monitoring")
+System_Ext(Collect, "OTEL", "OpenTelemetry Collector")
+System_Ext(Payment_gateway, "Payment Gateway", "Payment Gateway")
+
+Rel(Client,Wallet, "Use", "HTTPS")
+Rel(Wallet, Secret_manager, "Use", "HTTPS")
+Rel(Wallet, APM, "Use", "HTTPS")
+Rel(Wallet, Collect, "Use", "HTTPS")
+Rel(Wallet, Payment_gateway, "Use", "HTTPS")
+@enduml

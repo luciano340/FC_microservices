@@ -28,4 +28,4 @@ Com uma base solida vamos começar a penasr nas futuras complexidades de um sist
  * (Transactional Outbox)[https://microservices.io/patterns/data/transactional-outbox.html]
 
 ## Abordagem :construction_worker:
-TBD
+Irei utilizar um sistema simples, mas que irá representar bem a essência dos micro serviços, e para isso irei documentar o projeto usandoi diagramas do modelo (C4)[https://c4model.com/]
