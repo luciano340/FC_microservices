@@ -29,3 +29,5 @@ Com uma base solida vamos começar a penasr nas futuras complexidades de um sist
 
 ## Abordagem :construction_worker:
 Irei utilizar um sistema simples, mas que irá representar bem a essência dos micro serviços, e para isso irei documentar o projeto usandoi diagramas do modelo (C4)[https://c4model.com/]
+
+Afim de faciliar a organização para estudos, todos os micro serviços estarão presentes nesse mesmo repositório. Entretanto sempre que trabalharmos com micro serviço devemos separar os mesmos em repositórios diferentes, dessa forma poderemos criar esteiras de CI/CD mais eficiente e uma melhor organização.
