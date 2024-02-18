@@ -6,7 +6,7 @@
 Esse repositório contém apenas um microserviço, sendo ele o WallerCore.
 
 Nesse link você poderá encontrar todos os microserviços se comunicando e já prontos para execução com docker: TBD
-:heavy_exclamation_mark:
+
 
 ## Visão Geral 🔎
 Neste código espero mostrar a minha visão de sistemas baseados em Micro Serviços utilizando PlantUML para a criação diagramas usando o módelo C4.
