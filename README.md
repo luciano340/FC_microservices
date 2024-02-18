@@ -2,6 +2,12 @@
 
 # Estudo sobre Sistemas Baseados em Micro Serviços
 
+:heavy_exclamation_mark:
+Esse repositório contém apenas um microserviço, sendo ele o WallerCore.
+
+Nesse link você poderá encontrar todos os microserviços se comunicando e já prontos para execução com docker: TBD
+:heavy_exclamation_mark:
+
 ## Visão Geral 🔎
 Neste código espero mostrar a minha visão de sistemas baseados em Micro Serviços utilizando PlantUML para a criação diagramas usando o módelo C4.
 
@@ -29,5 +35,3 @@ Com uma base solida vamos começar a penasr nas futuras complexidades de um sist
 
 ## Abordagem :construction_worker:
 Irei utilizar um sistema simples, mas que irá representar bem a essência dos micro serviços, e para isso irei documentar o projeto usandoi diagramas do modelo (C4)[https://c4model.com/]
-
-Afim de faciliar a organização para estudos, todos os micro serviços estarão presentes nesse mesmo repositório. Entretanto sempre que trabalharmos com micro serviço devemos separar os mesmos em repositórios diferentes, dessa forma poderemos criar esteiras de CI/CD mais eficiente e uma melhor organização.
