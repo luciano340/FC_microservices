@@ -3,7 +3,7 @@
 # Estudo sobre Sistemas Baseados em Micro Serviços
 
 :heavy_exclamation_mark:
-Esse repositório contém apenas um microserviço, sendo ele o WallerCore.
+Esse repositório contém apenas um microserviço, sendo ele o WalletCore.
 
 Nesse link você poderá encontrar todos os microserviços se comunicando e já prontos para execução com docker: TBD
 
